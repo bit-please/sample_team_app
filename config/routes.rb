@@ -11,5 +11,6 @@ Rails.application.routes.draw do
     get "/samps" => "samps#index"
     get "/woots" => "woots#index"
     get "/samples" => "samples#index"
+    get "/messages" => "messages#index"
   end
 end
