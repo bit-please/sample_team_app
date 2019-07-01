@@ -9,5 +9,6 @@ Rails.application.routes.draw do
     get "/harrison" => "harrison#index"
     get "/posts" => "posts#index"
     get "/samps" => "samps#index"
+    get "/woots" => "woots#index"
   end
 end
