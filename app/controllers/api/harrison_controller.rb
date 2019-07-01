@@ -1,7 +1,7 @@
 class Api::HarrisonController < ApplicationController
 
   def index
-    render json: {message: "Hola, soy Mark"}
+    render 'index.json.jbuilder'
     
   end
 end
