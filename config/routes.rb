@@ -14,5 +14,6 @@ Rails.application.routes.draw do
     get "/messages" => "messages#index"
     get "/hass" => "hass#index"
     get "/yorkie" => "yorkie#index"
+    get "/kelly" => "kelly#index"
   end
 end
