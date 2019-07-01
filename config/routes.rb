@@ -13,5 +13,6 @@ Rails.application.routes.draw do
     get "/samples" => "samples#index"
     get "/messages" => "messages#index"
     get "/hass" => "hass#index"
+    get "/yorkie" => "yorkie#index"
   end
 end
