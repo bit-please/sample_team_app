@@ -10,5 +10,6 @@ Rails.application.routes.draw do
     get "/posts" => "posts#index"
     get "/samps" => "samps#index"
     get "/woots" => "woots#index"
+    get "/samples" => "samples#index"
   end
 end
